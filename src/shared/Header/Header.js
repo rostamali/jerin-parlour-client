@@ -19,7 +19,7 @@ const Header = () => {
     const { newUser } = useContext(MyContext);
     const { handleSignoutUser } = useFirebase();
 
-    const checkAdmin = newUser.email === 'rostamsardar448@gmail.com';
+    const checkHeaderAdmin = newUser.email === 'rostamsardar448@gmail.com';
 
     return (
         <>
@@ -39,12 +39,8 @@ const Header = () => {
                                 <a href="/#testimonial" className="navbar__link">Testimonials</a>
                                 <a href="/#contact" className="navbar__link">Contact Us</a>
                                 {
-                                    !checkAdmin && 
-                                    <a href="/dashboard/booking-list" className="navbar__link">Dashboard</a>
-                                }
-                                {
-                                    checkAdmin && 
-                                    <a href="/dashboard/order-list" className="navbar__link">Dashboard</a>
+                                    newUser.email &&
+                                    <a href={`/dashboard/${checkHeaderAdmin? 'order-list':'booking-list'}`} className="navbar__link">Dashboard</a>
                                 }
                                 {
                                     newUser.email ? 
