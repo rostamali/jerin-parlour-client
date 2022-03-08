@@ -1,0 +1,48 @@
+#about{
+    background-color: var(--body-bg);
+    padding: 100px 0;
+}
+#about .row{
+    align-items: center;
+}
+.about__thumbnail img{
+    width: 80%;
+}
+span.text__highlight{
+    color: var(--brand-color);
+}
+.countdown__number{
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 60px;
+    letter-spacing: 0.01em;
+    color: var(--brand-color);
+}
+.countdown__title{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    color: var(--title-color);
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+/* ======= media query ========= */
+@media only screen and (max-width: 991px){
+    .about__thumbnail img{
+        width: 100%;
+    }
+    .about__thumbnail{
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .countdown__number{
+        font-size: 35px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .countdown__title{
+        font-size: 14px;
+    }
+}

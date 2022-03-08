@@ -1,0 +1,64 @@
+#login{
+    padding: 100px 0;
+}
+#login .section__header{
+    margin-bottom: 40px;
+}
+.form__wrapper{
+    width: 30%;
+    margin: auto;
+}
+.input__field {
+    display: block;
+    height: 40px;
+    padding: 5px 16px;
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid var(--brand-color);
+}
+.submit__btn{
+    width: 100%;
+}
+
+.form__footer{
+    margin-top: 30px;
+}
+form__text{
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--title-color);
+    font-weight: 400;
+}
+.link__text:link,
+.link__text:visited{
+    color: var(--brand-color);
+}
+
+/* ===== media query ===== */
+@media only screen and (max-width: 1199px){
+    .form__wrapper{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 991px){
+    .form__wrapper{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .form__wrapper{
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .form__wrapper{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 450px){
+    .form__wrapper{
+        width: 100%;
+    }
+}

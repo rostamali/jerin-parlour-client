@@ -1,0 +1,23 @@
+.btn__delete{
+    background: #FFE3E3;
+    color: #FF4545;
+    margin-left: 8px;
+}
+.btn__edit{
+    color: #009444;
+    background: #C6FFE0;
+}
+.btn__delete,
+.btn__edit{
+    font-size: 20px;
+    border:none;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.service__action--btn {
+    display: flex;
+}

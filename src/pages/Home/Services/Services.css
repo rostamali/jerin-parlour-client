@@ -1,0 +1,99 @@
+#services{
+    padding: 80px 0;
+}
+.section__header{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.box__shadow{
+    box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.section__header .section__title{
+    font-weight: 700;
+}
+.service__wrapper{
+    text-align: center;
+    padding: 36px;
+}
+.service__icon{
+    height: 72px;
+    margin-bottom: 18px;
+}
+.service__title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 0.396px;
+    color: var(--title-color);
+    margin-bottom: 18px;
+}
+.service__price{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    letter-spacing: 0.396px;
+    color: var(--brand-color);
+    margin-bottom: 18px;
+}
+.service__subtitle{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.396px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.section__footer{
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.book__now--btn{
+    background-color: var(--brand-color);
+    border: none;
+    border-radius: 5px;
+    color: var(--white-color);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 6px 15px;
+    margin-top: 18px;
+}
+
+/* slider */
+@media only screen and (min-width: 1100px){
+    .swiper-slide-next .service__wrapper{
+        box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .swiper-slide-active{
+        padding: 20px;
+    }
+    .swiper-slide-active .service__wrapper{
+        box-shadow: 0px 4px 28px rgb(0 0 0 / 10%);
+        border-radius: 10px;
+    }
+}
+
+.service__slider .swiper-wrapper{
+    padding: 40px 0;
+}
+.swiper__arrow--prev,
+.swiper__arrow--next{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: var(--brand-color);
+    margin: 0 6px;
+    color: var(--white-color);
+}
+.swiper-button-disabled{
+    background-color: #dae1e7;
+    color: #0f3460;
+}

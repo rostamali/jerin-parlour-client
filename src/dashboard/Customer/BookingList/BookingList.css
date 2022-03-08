@@ -1,0 +1,43 @@
+.booking__item--header{
+    margin-bottom: 20px;
+}
+.booking__item{
+    background-color: var(--white-color);
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+.booking__item--header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.booking__item--thumbnail{
+    height: 72px;
+}
+.booking__item--status{
+    border-radius: 5px;
+    padding: 8px 20px;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 300;
+}
+.pending{
+    background: #FFE3E3;
+    color: #FF4545;
+}
+.done{
+    color: #009444;
+    background: #C6FFE0;
+}
+
+.pay__btn{
+    border-radius: 5px;
+    padding: 8px 20px;
+    text-transform: capitalize;
+    border: none;
+    margin-left: 6px;
+    color: var(--white-color);
+    background-color: var(--brand-color);
+    font-size: 15px;
+    font-weight: 300;
+}

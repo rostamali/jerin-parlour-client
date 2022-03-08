@@ -1,0 +1,25 @@
+#orderlist{
+    background-color: var(--white-color);
+    padding: 23px 20px;
+    border-radius: 15px;
+}
+.orderlist__header{
+    background: #F5F6FA;
+    border-radius: 13px;
+    border-radius: 13px;
+}
+.orderlist__header>tr>th{
+    padding: 20px;
+    border-bottom: none;
+}
+#orderlist .table>:not(:first-child) {
+    border-top: none;
+}
+.orderlist__body>tr>td{
+    padding: 20px;
+    border-bottom: none;
+}
+.orderlist__body select {
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,62 @@
+.service__modal{
+    background-color: #F4F7FC;
+    padding: 30px 50px 50px 50px;
+}
+.service__modal>.row{
+    align-items: center;
+}
+.close__btn{
+    background-color: var(--brand-color);
+    border: none;
+    color: var(--white-color);
+    height: 30px;
+    width: 30px;
+}
+
+/* ====== datepicker ====== */
+.service__modal .react-datepicker__day--today,
+.service__modal .react-datepicker__day--selected,
+.service__modal .react-datepicker__day--keyboard-selected, 
+.service__modal .react-datepicker__month-text--keyboard-selected, 
+.service__modal .react-datepicker__quarter-text--keyboard-selected, 
+.service__modal .react-datepicker__year-text--keyboard-selected {
+    background: var(--brand-color);
+    color: var(--white-color);
+    border-radius: 5px;
+}
+.service__modal .react-datepicker__day--today:hover {
+    background: var(--brand-color);
+}
+.service__modal .react-datepicker__month-container {
+    font-family: 'Poppins', sans-serif;
+    color: var(--title-color);
+}
+.service__modal .react-datepicker__header {
+    background-color: var(--body-bg);
+}
+.service__modal .react-datepicker__navigation-icon::before{
+    border-color: var(--brand-color);
+}
+
+
+
+.select__group .css-6j8wv5-Input{
+    height: 50px!important;
+}
+.select__group input#react-select-3-input{
+    height: 45px;
+}
+.select__group .css-1s2u09g-control{
+    border: none;
+}
+.select__group .css-1pahdxg-control{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.select__group .css-1pahdxg-control:hover{
+    border: none;
+}
+.select__group .css-1okebmr-indicatorSeparator{
+    background-color: transparent;
+}

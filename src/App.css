@@ -1,0 +1,76 @@
+/* ============= google font ============= */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,400;1,700;1,800&display=swap');
+
+/* ============= root variable ============= */
+:root{
+  --brand-color: #F73E7B;
+  --title-color: #111430;
+  --body-color: #000000B2;
+  --body-bg: #FFF8F5;
+  --link-color: #474747;
+  --white-color: #FFFFFF;
+}
+/* ============= default style ============= */
+*,
+*::before,
+*::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+p,h1,h2,h3,h4,h5,h6{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+
+/* ============= Btn syle ============= */
+.brand__btn{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 13px 32px;
+  background-color: var(--brand-color);
+  border: none;
+  border-radius: 5px;
+  color: var(--white-color);
+}
+/* ============= text default style ============= */
+.section__title{
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 43px;
+  letter-spacing: 0.396px;
+}
+
+@media only screen and (max-width: 768px){
+  .section__title{
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 600px){
+  .section__title{
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+
+
+/* ============= google font ============= */
+/* ============= google font ============= */
+/* ============= google font ============= */
+/* ============= google font ============= */
+/* ============= google font ============= */
+/* ============= google font ============= */
+/* ============= google font ============= */
+/* ============= google font ============= */
+/* ============= google font ============= */
+/* ============= google font ============= */
+/* ============= google font ============= */
