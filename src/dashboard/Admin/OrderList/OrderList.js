@@ -6,7 +6,7 @@ const OrderList = () => {
 
     const [orderList, setOrderList] = useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5000/order-list')
+        fetch('https://stormy-crag-31383.herokuapp.com/order-list')
         .then(res => res.json())
         .then(data => {
             setOrderList(data)
@@ -20,7 +20,7 @@ const OrderList = () => {
 
     const handleOrderStatus = (e, order) =>{
         const orderStatus = e.target.value;
-        const URL = `http://localhost:5000/update-order-status/${order._id}`;
+        const URL = `https://stormy-crag-31383.herokuapp.com/update-order-status/${order._id}`;
         fetch(URL, {
             method: "PUT",
             headers: {

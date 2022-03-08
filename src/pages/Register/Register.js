@@ -36,7 +36,7 @@ const Register = () => {
                     showConfirmButton: false,
                     timer: 1500
                 });
-                fetch('http://localhost:5000/users', {
+                fetch('https://stormy-crag-31383.herokuapp.com/users', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'

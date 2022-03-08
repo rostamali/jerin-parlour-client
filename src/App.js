@@ -13,6 +13,7 @@ import Manage from './dashboard/Admin/Manage/Manage';
 import useFirebase from './hooks/useFirebase';
 import UserRoute from './shared/UserRoute/UserRoute';
 import AdminRoute from './shared/AdminRoute/AdminRoute';
+import NotFound from './pages/NotFound/NotFound';
 
 export const MyContext = createContext();
 
@@ -35,6 +36,7 @@ function App() {
               <Route path="new-service" element={<AdminRoute><AddService /></AdminRoute>} />
               <Route path="manage-service" element={<AdminRoute><Manage /></AdminRoute>} />
             </Route>
+            <Route path="*" element={<NotFound/>}/>
           </Routes>
         </BrowserRouter>
       </MyContext.Provider>

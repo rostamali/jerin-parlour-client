@@ -8,7 +8,7 @@ const BookingList = () => {
     const [bookingList, setBookingList] = useState([]);
 
     useEffect(()=>{
-        const URL = `http://localhost:5000/booking/${newUser.email}`;
+        const URL = `https://stormy-crag-31383.herokuapp.com/booking/${newUser.email}`;
         fetch(URL)
         .then(res => res.json())
         .then(data => {

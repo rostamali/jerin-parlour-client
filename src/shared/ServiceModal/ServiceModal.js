@@ -35,7 +35,7 @@ const ServiceModal = (props) => {
         data.paymentStatus = 'unpaid';
         data.bookingService = props.service
         
-        fetch('http://localhost:5000/booking', {
+        fetch('https://stormy-crag-31383.herokuapp.com/booking', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
