@@ -13,3 +13,14 @@
     padding: 30px 50px;
     text-align: end;
 }
+
+@media only screen and (max-width: 450px){
+    .dashboard__container {
+        padding: 30px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .dashboard__container {
+        padding: 20px 15px;
+    }
+}

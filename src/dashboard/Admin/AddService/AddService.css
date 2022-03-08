@@ -19,6 +19,7 @@
     padding: 4px 16px;
     outline: none;
     border-radius: 3.33333px;
+    width: 100%;
 }
 #new__service .form__grid .form__group>textarea{
     border: 0.666667px solid #C9C9C9;
@@ -26,6 +27,7 @@
     padding: 4px 16px;
     outline: none;
     border-radius: 3.33333px;
+    width: 100%;
 }
 #new__service .form__grid .form__group>input::placeholder{
     font-size: 16px;
@@ -77,4 +79,15 @@ span.upload__icon>svg {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+}
+
+@media only screen and (max-width: 1100px){
+    #new__service .form__grid{
+        grid-template-columns: 1fr;
+    }
+}
+@media only screen and (max-width: 450px){
+    .image__form--group {
+        flex-direction: column;
+    }
 }

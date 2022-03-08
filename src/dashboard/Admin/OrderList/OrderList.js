@@ -44,7 +44,7 @@ const OrderList = () => {
     return (
         <>
             <div id="orderlist">
-                <div className="table-responsivee">
+                <div className="table-responsive">
                     <table class="table">
                         <thead class="orderlist__header">
                             <tr>

@@ -129,7 +129,7 @@ const ServiceModal = (props) => {
                                 </div>
                                 <div className="text-center">
                                     <h5 className='py-3'>Please Login First</h5>
-                                    <a href="/login" class="navbar__link login__btn">Login</a>
+                                    <a href="/login" class="modal__login--btn">Login</a>
                                 </div>
                             </div>    
                         </div>

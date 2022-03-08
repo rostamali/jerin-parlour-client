@@ -77,6 +77,19 @@
         border-radius: 10px;
     }
 }
+@media only screen and (max-width: 425px){
+    .service__title {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .service__subtitle {
+        font-size: 14px;
+    }
+    .service__wrapper {
+        text-align: center;
+        padding: 25px 15px;
+    }
+}
 
 .service__slider .swiper-wrapper{
     padding: 40px 0;
