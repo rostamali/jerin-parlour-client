@@ -10,7 +10,7 @@ import './Login.css';
 const Login = () => {
 
     const { register, handleSubmit, reset } = useForm();
-    const { handleSigninUser, setNewUser, setAuthError, setLoading } = useFirebase();
+    const { handleSigninUser, setNewUser, setAuthError, setLoading, authError } = useFirebase();
     const location = useLocation();
     const navigate = useNavigate();
     const redirectUri = location.state?.from || '/';
@@ -38,6 +38,8 @@ const Login = () => {
         }).finally(()=>setLoading(false));
     };
 
+    console.log(authError)
+
     return (
         <>
             <Header></Header>
@@ -54,7 +56,10 @@ const Login = () => {
                         </form>
                     </div> 
                     <div className="form__footer text-center">
-                        <p className="form__text">Don't have an account? <a href="/register" className="link__text">Create an account</a></p>  
+                        <p className="form__text">Don't have an account? <a href="/register" className="link__text">Create an account</a></p> 
+                        {
+                            authError && <span className="alert__msg">{authError.split('/')[1]}</span> 
+                        }
                     </div>   
                 </div>    
             </div>

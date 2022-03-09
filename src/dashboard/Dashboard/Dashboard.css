@@ -13,6 +13,9 @@
     padding: 30px 50px;
     text-align: end;
 }
+h5.user__name {
+    text-transform: capitalize;
+}
 
 @media only screen and (max-width: 450px){
     .dashboard__container {
