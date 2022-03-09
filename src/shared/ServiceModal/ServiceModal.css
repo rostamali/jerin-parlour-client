@@ -60,7 +60,9 @@
 .select__group .css-1okebmr-indicatorSeparator{
     background-color: transparent;
 }
-
+.select__group input#react-select-2-input {
+    height: 48px;
+}
 .modal__login--btn:link,
 .modal__login--btn:visited{
     background-color: var(--brand-color);
