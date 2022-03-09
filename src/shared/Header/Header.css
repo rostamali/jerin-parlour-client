@@ -90,11 +90,11 @@
 }
 
 .navbar-toggler .bredcrumb__icon::before {
-    top: 0;
+    top: -.5rem;
     transform: rotate(135deg);
 }
 .navbar-toggler .bredcrumb__icon::after {
-    top: 0;
+    top: -.5rem;
     transform: rotate(-135deg);
 }
 
